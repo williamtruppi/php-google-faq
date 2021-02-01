@@ -9,22 +9,60 @@
   display: flex;
 }
 
-.nav{
-  height: 90px;
+nav{
+  width: 100%;
+  padding: 0 20px;
+  align-items: center;
+  color: #5F6368;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #5F6368;
 }
 
 .navtop{
-  height: 40%;
-  align-items: center;
-  color: #5F6368;
+  padding: 20px 0;
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-.navtop strong{
+.navtop span{
   margin-left: 10px;
 }
 
 .navtop img{
-  height: 40px;
+  height: 27px;
 }
+
+.navbottom ul{
+  list-style: none;
+  
+}
+
+.navbottom li {
+  margin-right: 40px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.faq{
+  color: #3c4043;
+  width: 70vw;
+  margin: auto;
+  margin-top: 160px;
+  margin-bottom: 80px;
+}
+
+.faq h1{
+  font-size: 24px;
+  margin: 40px 0;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.faq p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
