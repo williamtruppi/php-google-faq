@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.d_flex{
+  display: flex;
+}
+
+.nav{
+  height: 90px;
+}
+
+.navtop{
+  height: 40%;
+  align-items: center;
+  color: #5F6368;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.navtop strong{
+  margin-left: 10px;
+}
+
+.navtop img{
+  height: 40px;
+}
